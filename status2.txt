@@ -1,0 +1,29 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   images/created-image-for-project.jpeg
+	new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	status1.txt
+	status2.txt
+
+//Erklärung:
+In status1.txt stand index.html unter "Untracked files". Git hat die Datei also noch nicht verfolgt.
+Nach git add steht sie unter "Changes to be committed". Sie ist jetzt in der Staging Area und für den nächsten Commit vorgemerkt.
+Gespeichert ist sie aber noch nicht, das passiert erst mit git commit.
+
+//Your branch is ahead of 'origin/main' by 1 commit:
+heißt: Ich habe lokal einen Commit, den GitHub noch nicht hat. origin ist GitHub.
+
+//(use "git push" to publish your local commits):
+bedeutet: Git sagt was als Nächstes kommt: git push.
+
+//index.html fehlt in “Changes to be committed
+bed.: Die Datei ist jetzt gespeichert, nicht mehr nur vorgemerkt. Sie ist im lokalen Repository.
+
+//status1.txt, status2.txt untracked
+Richtig so. Die kommen erst in Schritt 7 dran.

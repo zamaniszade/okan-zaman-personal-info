@@ -1,0 +1,17 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	status1.txt
+	status2.txt
+	status3.txt
+	status4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+//Erklärung:
+Git sagt "up to date with 'origin/main'".
+Das heißt: Mein lokales Repository und das Repository auf GitHub haben denselben Stand.
+Mein Commit wurde mit git push hochgeladen.
+Nur die status-Dateien sind noch untracked, die habe ich noch nicht hinzugefügt.
